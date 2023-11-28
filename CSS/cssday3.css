@@ -1,0 +1,50 @@
+*{
+    margin: 0; padding: 0;
+}
+
+#shadow{
+    font-size: 100px;
+    text-align: justify;
+    text-align-last: center;
+    text-decoration-line: none;
+    text-decoration-color: blue;
+    text-decoration-thickness: 0px;
+    text-underline-offset: 3px;
+    text-decoration-style: solid;
+    text-transform: capitalize;
+    text-shadow: 12px 12px 12px rgb(41, 21, 11);    box-shadow: 12px 12px 12px rgb(41, 21, 11);
+}
+img{
+    height: 300px;
+    box-shadow: 10px 10px 6px rgb(48, 48, 39),
+    -10px -10px 6px red;
+}
+
+p{
+    text-indent: 200px;
+    line-height: 50px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    unicode-bidi: bidi-override;
+    direction: ltr;
+    font-size: 1.4rem; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+nav ul{
+    text-align: center;
+    word-spacing: 3rem;
+    height: 2rem;
+    background-color: crimson;
+}
+nav ul li{
+    margin-top: .4rem;
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: progress;
+}

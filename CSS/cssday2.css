@@ -1,0 +1,56 @@
+/*
+Outline
+
+CSS Specificity
+1. Inline styling always has the highest priority
+2. Between internal and external, which is last declared
+will be executed
+3. ID > Class > Tag
+
+Color codings
+1. Names
+2. rgb/rgba
+3. hsl/hsla 
+hue, saturation, lightness
+0 to 120 - red to green
+120 to 240 - green to blue
+240 to 360 - blue to red
+
+4. Hexadecimal #
+alphanumeric (0...9, a... f)
+*/
+body{
+    height: 400vh;
+    background-image: radial-gradient(red, blue, green, yellow)
+/*    background-color: tan;
+    background-image: url(../Images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 100px 100px;
+    background-size: 200px 200px;
+    */
+} 
+p{
+    outline: 10px outset red;
+    outline-offset: 0px;
+    margin: 50px;
+    border: 10px outset black;
+    background-color: rgb(0, 213, 255);
+    padding: 10px;
+    border-radius: 20px;
+    height: 200px;
+    overflow: hidden;
+    background-image: url('../Images/logo.png');
+    background-attachment: local;
+}
+
+
+
+h1{
+    color: yellow;
+}
+/* #h1{
+    color: red;
+} */
+/* .h1{
+    color: blue;
+} */

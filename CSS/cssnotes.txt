@@ -1,0 +1,51 @@
+selector (tag, id, class,...){
+    property: value;
+}
+
+
+What are the types of styling?
+Inline styling - style attribute
+Internal styling - style tag
+External styling - link tag
+------------------------------------------
+November 22, 2023
+
+1. Background
+Image
+color
+attachment
+size
+position
+repeat
+2. colors
+- hexadecimal
+- rgb/rgba
+- hsl/hsla
+3. overflow
+none
+hidden
+scroll
+4. outline
+5. gradient
+-----------------------------------------
+November 23, 2023
+
+1. Text formatting
+2. Font formatting
+3. List formatting
+4. Display
+5. NavBar creation
+6. text shadow and box shadow
+
+-------------------------------------
+November 28, 2023
+1. Pseudo classes 
+2. Pseudo elements 
+3. Advanced selectors 
+
+Id, class, tag
+* - Universal selector
+descendant selector - ul #id .class 
+immediate child selector (>)
+adjacent sibling selector (~, +)
+attribute selector
